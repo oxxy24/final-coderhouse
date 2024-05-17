@@ -1,0 +1,103 @@
+.tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 25px;
+  }
+  
+  .tarjeta {
+    width: 400px;
+    background-color: rgb(137, 151, 235);
+    margin: 10px;
+    padding: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .tarjeta-img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  .tarjeta-descripcion {
+    font-family: Cinzel;
+    font-size: 15px;
+  }
+  
+  .mascara-tarjeta {
+    width: 500px;
+    background-color: brown;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .boton-primario {
+    background-color: $color-primario;
+    color: $color-cuarto;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+  }
+  
+  .boton-primario:hover {
+    background-color: $color-terciario;
+  }
+  
+  .boton-dos {
+    background-color: orange;
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -10px;
+    right: 20px;
+  }
+  
+  .boton-dos:hover {
+    background-color: rgb(0, 255, 85);
+  }
+  
+  .tarjeta-titulo {
+    text-align: center;
+  }
+  
+  .mascaras-tarjetas {
+    display: flex;
+  }
+  .mascara-img {
+    width: 100%;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .options-option {
+    padding: 40px;
+    color: beige;
+    background-color: rgb(11, 107, 139);
+  }
+  .options-option {
+    padding: 40px;
+    color: beige;
+    background-color: rgb(11, 107, 139);
+  }
+  
+  .opciones-opcion {
+    padding: 40px;
+    color: beige;
+    background-color: palevioletred;
+  }
+  
+  
+ 

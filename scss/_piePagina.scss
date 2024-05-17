@@ -1,0 +1,64 @@
+.pie-pagina {
+  background-color: coral;
+    padding: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+    font-size: 24px;
+    color: blueviolet;
+  }
+  
+
+.titulo-contactos{
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.formato-contactos-grupo{
+    display: flex;
+  flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0px;
+
+}
+
+
+.form-contactos {
+    
+  background-color: brown;
+  width: 750px;
+  margin: 50px 500px 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+
+  }
+.form-contactos-grupo-label{
+  color: white;
+}
+.formato-contactos-grupo-input {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px 10px;
+  transition: 0.5s;
+}
+.form-contactos-boton{
+  width: 100%;
+  background-color: gainsboro;
+  border: 0px;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+
+.mapa{
+  margin: 50px;
+  position: relative;
+}
+.body-one{
+  background-color: $color-secundario;
+}

@@ -1,0 +1,598 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cinzel:wght@400..900&display=swap");
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: turquoise;
+  overflow-x: hidden;
+}
+
+.nav-inicio {
+  background-color: #042940;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: end;
+  z-index: 2;
+  position: sticky;
+  top: 0px;
+  
+}
+
+.navegador-links {
+  display: flex;
+  gap: 30px;
+}
+
+.navegador-link {
+  list-style: none;
+}
+
+.navegador-link a {
+  display: block;
+  padding: 20px 5px;
+  color: beige;
+  text-decoration: none;
+}
+
+.nav-ellas {
+  background-color: palevioletred;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+.nav-contactos {
+  background-color: green;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+}
+
+.logito {
+  width: 10%;
+}
+
+.logito-ellas {
+  width: 10%;
+}
+
+.portada {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.portada-img {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  position: absolute;
+}
+
+.titulo-ellas {
+  text-align: center;
+}
+
+.subtitulo {
+  text-align: center;
+  font-family: Cinzel;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+.titulo-disponible {
+  color: blueviolet;
+  font-size: 40px;
+}
+
+.video-presentacion {
+  width: 50%;
+  height: 500px;
+}
+
+.titulo-inicio {
+  font-size: 64px;
+  text-align: center;
+  font-family: Bungee Spice;
+  font-size: 80px;
+  text-shadow: 5px 20px black;
+  position: absolute;
+}
+
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 25px;
+}
+
+.tarjeta {
+  width: 400px;
+  background-color: rgb(137, 151, 235);
+  margin: 10px;
+  padding: 25px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tarjeta-img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.tarjeta-descripcion {
+  font-family: Cinzel;
+  font-size: 15px;
+}
+
+.mascara-tarjeta {
+  width: 500px;
+  background-color: brown;
+  margin: 10px;
+  padding: 20px;
+  color: white;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.boton-primario {
+  background-color: #042940;
+  color: #DBF227;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+}
+
+.boton-primario:hover {
+  background-color: #005C53;
+}
+
+.boton-dos {
+  background-color: orange;
+  border: 0px;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: -10px;
+  right: 20px;
+}
+
+.boton-dos:hover {
+  background-color: rgb(0, 255, 85);
+}
+
+.tarjeta-titulo {
+  text-align: center;
+}
+
+.mascaras-tarjetas {
+  display: flex;
+}
+
+.mascara-img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.options-option {
+  padding: 40px;
+  color: beige;
+  background-color: rgb(11, 107, 139);
+}
+
+.options-option {
+  padding: 40px;
+  color: beige;
+  background-color: rgb(11, 107, 139);
+}
+
+.opciones-opcion {
+  padding: 40px;
+  color: beige;
+  background-color: palevioletred;
+}
+
+.galeria {
+  width: 80%;
+  margin: auto;
+  padding: 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 150px);
+  grid-template-areas: "img1 img2 img2 img4" "img1 img2 img2 img4" "img1 img3 img3 img4" "img5 img5 img6 img6" "img5 img5 img6 img6" "img7 img7 img7 img7";
+}
+
+.img1 {
+  grid-area: img1;
+}
+
+.img2 {
+  grid-area: img2;
+}
+
+.img3 {
+  grid-area: img3;
+}
+
+.img4 {
+  grid-area: img4;
+}
+
+.img5 {
+  grid-area: img5;
+}
+
+.img6 {
+  grid-area: img6;
+}
+
+.img7 {
+  grid-area: img7;
+}
+
+.galeria img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.carousel-ellas {
+  width: 75%;
+  margin: auto;
+}
+
+.pie-pagina {
+  background-color: coral;
+  padding: 20px;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 24px;
+  color: blueviolet;
+}
+
+.titulo-contactos {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+.formato-contactos-grupo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 10px 0px;
+}
+
+.form-contactos {
+  background-color: brown;
+  width: 750px;
+  margin: 50px 500px 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.form-contactos-grupo-label {
+  color: white;
+}
+
+.formato-contactos-grupo-input {
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 10px;
+  border-radius: 5px 10px;
+  transition: 0.5s;
+}
+
+.form-contactos-boton {
+  width: 100%;
+  background-color: gainsboro;
+  border: 0px;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.mapa {
+  margin: 50px;
+  position: relative;
+}
+
+.body-one {
+  background-color: #9FC131;
+}
+
+.descripcion-tienda {
+  font-family: Cinzel;
+  font-size: 30px;
+}
+
+.descripcion-dos {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.ademas {
+  text-align: center;
+  font-family: Bungee Spice;
+}
+
+.mascara-descripcion {
+  font-family: Cinzel;
+  font-size: 15px;
+} 
+.parrafo-ellas {
+  text-align: center;
+  font-family: Bungee Spice;
+}
+
+.contenedor {
+  background-color: rgb(246, 243, 249);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contenedor img {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transition: 0.5s;
+}
+.contenedor .contenedor-img1:hover {
+  transform: translate(10px, 20px);
+}
+.contenedor .contenedor-img2:hover {
+  transform: rotatey(80deg);
+}
+.contenedor .contenedor-img3:hover {
+  transform: scale(2);
+}
+.contenedor .contenedor-img4:hover {
+  transform: skew(0deg, 10deg);
+}
+.tarjetas{
+  background-color: rgb(227, 223, 231);
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.tarjeta {
+  width: 300px;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border: 5px;
+  margin: 20px;
+}
+.tarjeta:hover {
+  transition: 1s;
+  transform: rotateZ(360deg) scale(1.2) translate(15px, 0px);
+}
+
+.cajas {
+  width: 100%;
+  height: 500px;
+  background-color: chocolate;
+  padding: 10px;
+}
+.cajas .caja {
+  width: 50px;
+  height: 50px;
+  margin: 10px;
+  background-color: rgb(90, 41, 135);
+  border-radius: 50%;
+  animation-name: movimiento;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+
+@keyframes movimiento {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(300px, 0px) scale(1.5);
+    background-color: rgb(226, 189, 24);
+  }
+  40% {
+    transform: translate(300px, 200px);
+    background-color: aliceblue;
+  }
+  60% {
+    transform: translate(0px, 200px);
+    background-color: yellow;
+  }
+  80% {
+    transform: translate(0, 0);
+  }
+  100% {
+    background-color: aquamarine;
+  }
+}
+
+@media (max-width: 1200px){
+  body{
+    background-color: rgb(152, 92, 92);
+  }
+  .video-presentacion{
+    width: 100%;
+  }
+}
+
+@media (max-width: 1024px){
+  body{
+    background-color: #9FC131;
+  }
+  .video-presentacion{
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 992px) { 
+  .titulo {
+    font-size: 48px;
+  }
+  .galeria {
+    width: 100%;
+    padding: 5px;
+  }
+  .tarjetas {
+    margin-bottom: 20px;
+  }
+  body{
+    background-color: whitesmoke;
+  }
+  .video-presentacion{
+    width: 100%;
+  }
+    }
+
+  @media (max-width: 768px) {
+    .titulo-inicio {
+      font-size: 48px;
+    }
+    .options-option{
+      padding: 10px;
+    }
+    .opciones-opcion{
+      padding: 10px;
+    }
+    .galeria {
+      width: 100%;
+      padding: 5px;
+    }
+    .tarjetas {
+      margin-bottom: 20px;
+    }
+    body{
+      background-color: rgb(132, 129, 129);
+      overflow-x: hidden;
+    }
+    .video-presentacion{
+      width: 100%;
+    }
+    .logito {
+      width: 100px;
+    }
+    .logito-ellas{
+      width: 100px;
+    } 
+    }
+
+    @media (max-width: 480px) {
+      .titulo-inicio {
+        font-size: 45px;     
+      }
+      .nav-inicio{
+        background-color: #9FC131;  
+        width: 520px;
+      }
+      h2{
+        margin-left: 30px;
+        font-size: 50px;
+      }
+      .descripcion-tienda{
+        margin : 55px;
+      }
+      h3{
+        margin-left: 50px;
+        
+      }
+      .options-option {
+        background-color: #005C53;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+          
+      }
+      .opciones-opcion{
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        margin: 10px;
+      }
+      .descripcion-dos {
+        margin-left: 50px;
+      }
+      .portada-img {
+        width: 400px;
+      }
+      .galeria {
+        width: 100%;
+        padding: 5px;
+      }
+      .tarjetas {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 15px;
+      }
+      .mascaras-tarjetas{
+        flex-wrap: wrap;
+        margin-left: 30px;
+      }
+      body{
+        background-color: rgb(94, 190, 241);
+        overflow-x: hidden;
+
+      }
+      .video-presentacion{
+        width: 80%;
+        margin: 15%;
+      }
+      .logito {
+        width: 100px;
+      }
+      .logito-ellas{
+        width: 100px;
+      } 
+      .form-contactos{
+        width: 100%;
+      }
+      .mapa {
+        width: 70%;
+        
+      }
+       }
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Cinzel:wght@400..900&display=swap");
+@import"./scss/reset";
+@import"./scss/variables";
+@import"./scss/navegador";
+@import"./scss/portada";
+@import"./scss/tarjetas";
+@import"./scss/galeria";
+@import"./scss/piePagina";
+@import"./scss/descripcionParrafo";
+
+ 
+
+
+@media (max-width: 992px) {
+  .titulo {
+    font-size: 48px;
+  }
+  .galeria {
+    width: 100%;
+    padding: 5px;
+  }
+  .tarjetas {
+    margin-bottom: 20px;
+  }
+  body {
+    background-color: grey;
+  }
+}

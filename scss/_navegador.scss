@@ -1,0 +1,47 @@
+.nav-inicio {
+    background-color: $color-primario;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+  }
+  
+  .navegador-links {
+    display: flex;
+    gap: 30px;
+  }
+  
+  .navegador-link {
+    list-style: none;
+  }
+  
+  .navegador-link a {
+    display: block;
+    padding: 20px 5px;
+    color: beige;
+    text-decoration: none;
+  }
+  
+  .nav-ellas {
+    background-color: palevioletred;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+  }
+  
+  .nav-contactos {
+    background-color: green;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+  }
+
+  
